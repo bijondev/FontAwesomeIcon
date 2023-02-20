@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.bijondev.fontawesomeicon.IconTextView
+        android:id="@+id/icon_eye"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="#E20101"
+        android:textSize="70dp"
+        android:text="@string/icon_eye" />
+
+    <com.bijondev.fontawesomeicon.IconTextView
+        android:id="@+id/icon_email"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="#E20101"
+        android:textSize="70dp"
+        android:text="@string/icon_email" />
+
+    <com.bijondev.fontawesomeicon.IconTextView
+        android:id="@+id/icon_user"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="#E20101"
+        android:textSize="70dp"
+        android:text="@string/icon_user" />
+
+
+    <com.bijondev.fontawesomeicon.IconTextViewKt
+        android:id="@+id/icon_lock"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="#E20101"
+        android:textSize="70dp"
+        android:text="@string/icon_lock" />
+
+</LinearLayout>
